@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@media (max-width:768px) {
+    body{font-size: 10px;}
+    div{width: 100%;}
+    h1, h2, h3, p{line-height: 12px;}
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 5px 40px;
+}
+
+main{
+    padding: 20px 40px;
+}
+
+footer {
+    width: 100%;
+    background-color: #9a9898; 
+    color: #393838;
+    display: block;
+    padding: 15px 40px;
+    text-align: center;
+}
+
+body{
+    font-family: "Roboto Mono", monospace;
+    background-color: #DAD7D7; 
+    color: #393838;
+    line-height: 25px;
+    text-align: justify;
+}
+
+h1, h2, h3 {
+    font-family: "Open Sans", sans-serif;
+    text-transform:uppercase;
+    text-decoration: underline;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 1000;
+    line-height: 60px;
+    text-align: center;
+}
+
+h2, h3{
+    font-size: 2em;
+    line-height: 40px;
+}
+
+p, a {
+    font-size: 1em;
+    line-height: 35px;
+}
+
+img{
+    box-sizing: border-box;
+    border: 3px solid #9a9898;
+}
+div img{
+    width: 33%;
+}
+div{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* Gallery: */
+div img:hover{
+    border-color: #9a9898;
+    width: 25%;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+/* Single Image Bottom: */
+[src="images/Karneval.jpg"] {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+[src="images/Karneval.jpg"]:hover{
+    width: 100%;
+    border-color: #9a9898;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+a:link{color: #ae04f7;} 
+a:visited {   color: #f30866;}
+a:hover {
+    background-color: #9a9898;
+    ;
+    color: #393838;}
+
+    
+    
